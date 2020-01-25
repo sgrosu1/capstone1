@@ -85,15 +85,20 @@
 }
   /*Button*/
   
-      .button {
-  background-color: #FFFFFF;
-  border: none;
+   .button {
+  background-color: #F8F9F9;
+  border: 2px solid #D5D8DC;
   color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+  .button1:hover {
+  box-shadow: 0 1.5rem 3rem 0 rgba(0,0,0,0.24), 0 2rem 4rem 0 rgba(0,0,0,0.19);
 }
     </style>
 </style>
@@ -370,7 +375,7 @@
   </div>
 
 <div>
- <button class="button">Visitors:  
+ <button class="button button1">Visitors:  
 
 <!-- Default Statcounter code for Capstone1
 https://www.github.com/sgrosu1/capstone1 -->
